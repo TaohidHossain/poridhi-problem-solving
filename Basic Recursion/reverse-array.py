@@ -13,4 +13,4 @@ def reverse_recursive(arr: list, left: int, right: int) -> list:
     return reverse_recursive(arr, left + 1, right - 1)
 
 print(reverse(reverse_recursive([1, 2, 3, 4, 5], 0, 4)))  # Output: [5, 4, 3, 2, 1]
-print(reverse_recursive(reverse([1, 2, 3, 4, 5, 6]), 0, 5))  # Output: [6, 5, 4, 3, 2, 1]
+print(reverse_recursive(reverse([1, 2, 3, 4, 5, 6]), 0, 4))  # Output: [6, 5, 4, 3, 2, 1]

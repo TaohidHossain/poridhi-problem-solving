@@ -10,4 +10,4 @@ def print_combinations(elements: list, idx: int = 0, sub: list = []) -> None:
     print_combinations(elements, idx + 1, sub)
 
 
-print_combinations(['a', 'b', 'c', 'd', 'e', 1, 2, 3, 4, 5])
+print_combinations(['a', 'b', 'c'])
